@@ -25,7 +25,7 @@ SCALER_FILENAME = 'models/scaler_rf.joblib'
 PREDICTIONS_FILENAME = 'data/predictions_rf.csv'
 # --- Github ---
 GITHUB_TOKEN = st.secrets['GITHUB_TOKEN']
-NAME_REPO = "Claas99/sprottenflotte_pred_tool"
+NAME_REPO = st.secrets['NAME_REPO']
     
 
 # --- Function ---

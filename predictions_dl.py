@@ -28,7 +28,7 @@ SCALER_Y_FILENAME = 'models/scaler_y_ver2.joblib'
 PREDICTIONS_FILENAME = 'data/predictions_dl.csv'
 # --- Github ---
 GITHUB_TOKEN = st.secrets['GITHUB_TOKEN']
-NAME_REPO = "Claas99/sprottenflotte_pred_tool"
+NAME_REPO = st.secrets['NAME_REPO']
 
 
 # --- initialisation of the Bidirectional LSTM model --- 
