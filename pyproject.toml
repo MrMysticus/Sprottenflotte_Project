@@ -1,8 +1,11 @@
 [tool.poetry]
-name = "sprottenflotte_pred_tool"
+name = "Sprottenflotte_Project"
 version = "0.1.0"
 description = ""
-authors = ["Claas Resow <claas.resow@dwins.de>"]
+authors = [
+    "Claas Resow <claas.resow@dwins.de>",
+    "Justus Heilingbrunner <justus.heilingbrunner@gmail.com>"
+]
 readme = "README.md"
 package-mode = false
 
@@ -24,4 +27,4 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-main = "sprottenflotte_pred_tool.main:main"
+main = "Sprottenflotte_Project.main:main"
