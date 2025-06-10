@@ -26,7 +26,7 @@ CLIENT_SECRET = st.secrets['CLIENT_SECRET']
 access_token_cache = {'token': None, 'expires_at': None}
 # --- Github ---
 GITHUB_TOKEN = st.secrets['GITHUB_TOKEN']
-NAME_REPO = "Claas99/sprottenflotte_pred_tool"
+NAME_REPO = st.secrets['NAME_REPO']
 # --- Data ---
 DATA_FILENAME = 'data/data_temp.csv'
 STATIONS_FILENAME = 'data/stations.csv'
